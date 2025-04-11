@@ -1,0 +1,16 @@
+*dependencies- dependencies wo hoti hai jo appke project ko chahiye
+*dev dependencies - jo chize aapko development ke liye chahiye pure system pe uska hona zaruri nhi hai,
+ example aapko koi command run karna hai uske liye kuch chize required ho skti hai
+ ex: npm install nodemon --save-dev, nodemon is a software which I have installed as dev dependencies.
+*npm install --global nodemon or npm install -g nodemon - to install softwares globally, global install
+hoga to kahi se bhi bs nodemon index.js command run karne se run kar jayega lekin agar dev dependencies
+me install hua hoga to we have to add that command in script
+*package.json me scripts ke andar humne ek special script add kiya start aur usse ye hota hai ki jub 
+hum npm run <script name>start run karenge to start ke andar jo bhi command likha hai wo execute ho jayega
+example node index.js or nodemon index.js
+* npm install - is command se project related jitne bhi dependencies hai wo download ho jayengi, example
+aapne koi project download kiya hai to usko run karne se pehle aap npm install run kar do
+* npm outdated, will be usefull to check which pacakges are outdate and needs update, npm update- to update
+packages with latest version
+* we don't send or keep node modules on git, because these node modules can be changed for mac/windows/etc 
+and file size are very large of node modules.
